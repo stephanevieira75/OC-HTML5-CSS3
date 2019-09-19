@@ -1,0 +1,146 @@
+/****************************/
+/********Font-face***********/
+/****************************/
+
+/* font-face: Pokemon Solid */ 
+@font-face {
+    font-family: "Pokemon Solid";
+    src: url("../fonts/Pokemon\ Solid.ttf");
+}
+
+/* font-face: Pokemon Text */ 
+@font-face {
+    font-family: "Pokemon Text";
+    src: url("../fonts/Pokemon\ Text.ttf");
+}
+
+/* body */
+body{
+    background: url('../assets/background.png') 100%;
+    font-family: "Pokemon Text";
+}
+
+/****************************/
+/********Text Format*********/
+/****************************/
+
+/* Class: underline */
+.underline{
+    text-decoration: underline;
+}
+
+/* Class: bold-underline */
+.bold-underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Class: square */
+.square{
+    list-style-type: square;
+}
+
+/* Class: italic */
+.italic{
+    font-style: italic;
+}
+
+/****************************/
+/***********Header***********/
+/****************************/
+
+/* Id: header-container */
+#header-container{
+    text-align: center;
+}
+
+/* Class: main-title */
+.main-title{
+    font-family: "Pokemon Solid";
+    color:#fdd300;
+    text-shadow: 5px 5px 3px #4358b7, -5px 5px 3px #4358b7, 5px 5px 3px #4358b7, 5px -5px 3px #4358b7, 3px 3px 5px #4358b7, -3px -3px 5px #4358b7, 3px -3px 5px #4358b7, -3px 3px 5px #4358b7;
+    font-size: 4em;
+    margin-top: 5%;
+}
+
+/* Class: bio */
+.bio{
+    font-size: 1.5em;
+}
+
+/* Class: picture */
+.picture{
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    border: 5px solid #4a51a2;
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px #29366e;
+    
+}
+
+/* Class: div-lise */
+.div-lise{
+    background-color: #4a51a2;
+    border: 5px solid #29366e;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/****************************/
+/**********Section***********/
+/****************************/
+
+/* Id: section-container */
+#section-container{
+    width: 80%;
+    margin: 5% 0 0 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* Id: div-exp, div-skill, div-school */
+#div-exp, #div-skill, #div-school{
+    width: 30%;
+    height: 100%;
+    background-color: #4a51a2;
+    border: 3px solid #29366e;
+    border-collapse: collapse;
+    margin-right: 3%;
+    overflow: auto;
+}
+
+/* Class: exp-title, skill-title, school-title */
+.exp-title, .skill-title, .school-title{
+    color: whitesmoke;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+/* Class: pokeball */
+.pokeball{
+    width: 10%;
+    height: 10%;
+    margin-right: 8%;
+}
+
+/* Class: exp-title, skill-title, school-title */
+.exp-list, .skill-list, .school-list{
+    font-size: 1.1em;
+    color: whitesmoke;
+    text-align: left;
+    overflow: auto;
+}
+
+/* Class: oc-title, cc-title, fortytwo-title */
+.oc-title, .cc-title, .fortytwo-title{
+    font-size: 1.5em;
+    margin: 0 0 3% 0;
+}
