@@ -8,7 +8,7 @@
     <title>Sacha</title>
 
     <!--Mobile and desktop CSS -->
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/mobile.css">
     <link rel="stylesheet" href="css/desktop.css">
 </head>
 
@@ -19,17 +19,20 @@
         <div id="header-container">
 
             <!-- Title: .main-title - Paragraph : .header-p -->
-            <h1 class="main-title">Sacha Bourg-Palette</h1>
-            <p class="header-p">Jeune dresseur de Pokemon, passionné par le développement web !</p>
+            <h1 class="main-title">Sacha BourgPalette</h1>
+            <p class="bio italic">Jeune dresseur de Pokemon, passionné par le développement web !</p>
         </div>
 
         <div id="header-image">
             <a href="assets/ash_ketchum.jpeg">
-                <img src="assets/ash_ketchum.jpeg" alt="Ash Ketchum picture">
+                <img class="picture" src="assets/ash_ketchum.jpeg" alt="Ash Ketchum picture">
             </a>
         </div>
 
     </header>
+
+    <!-- Liseré -->
+    <div class="div-lise"></div>
 
     <!-- Section: container -->
     <section id="section-container">
@@ -38,7 +41,7 @@
         <div id="div-exp">
 
             <!-- Title: .exp-title -->
-            <h2 class="exp-title">Mon expérience :</h2>
+            <h2 class="exp-title underline"><img src="assets/icon.png" alt="icon pokeball sections" class="pokeball"> Mon expérience:</h2>
 
             <!-- ordered list: .exp-list -->
             <ol class="exp-list">
@@ -47,14 +50,14 @@
                 <li class="oc-li">
             
                     <!-- Title: oc-title -->
-                    <h3 class="oc-title bold-underline">OpenClassrooms :</h3>
+                    <h3 class="oc-title bold-underline">OpenClassrooms:</h3>
 
                     <!-- Unordered list: .exp-list-oc --> 
-                    <ul class="exp-list-oc italic square">
-                        <li>Démarrez votre projet avec Python : <span class="bold"> 100%</span></li>
-                        <li>Découvrez la programmation orientée objet avec Python : <span class="bold"> 100%</span></li>
-                        <li>Interface graphique Pygame pour Python : <span class="bold"> 100%</span></li>
-                        <li>Découvrez l'univers de la cybersécurité : <span class="bold"> 100%</span></li>
+                    <ul class="exp-list-oc italic italic square">
+                        <li><span class="bold-underline">Démarrez votre projet avec Python:</span> 100%</li>
+                        <li><span class="bold-underline">Découvrez la programmation orientée objet avec Python:</span> 100%</li>
+                        <li><span class="bold-underline">Interface graphique Pygame pour Python:</span> 100%</li>
+                        <li><span class="bold-underline">Découvrez l'univers de la cybersécurité:</span> 100%</li>
                     </ul>
                 </li>
                 <!-- li: end oc-li -->
@@ -65,90 +68,90 @@
                 <li class="cc-li">
 
                     <!-- Title: oc-title -->
-                    <h3 class="oc-title bold-underline">Codecademy :</h3>
+                    <h3 class="cc-title bold-underline">Codecademy:</h3>
 
                     <!-- unordered list: exp-list-cc -->
                     <ul class="exp-list-cc italic square">
-                        <li>Introduction to HTML : <span class="bold"> 100%</span></li>
-                        <li>Introduction to JavaScript : <span class="bold"> 80%</span></li>
-                        <li>Learn JavaScript : <span class="bold"> 40%</span></li>
+                        <li><span class="bold-underline">Introduction to HTML:</span> 100%</li>
+                        <li><span class="bold-underline">Introduction to JavaScript:</span> 80%</li>
+                        <li><span class="bold-underline">Learn JavaScript:</span> 40%</li>
                     </ul>   
                 </li>
                 <!-- li: end .cc-li -->
 
                 <br>
 
-                <!-- li: .42-li --> 
-                <li class="42-li">
+                <!-- li: .fortytwo-li --> 
+                <li class="fortytwo-li">
 
-                    <!-- Title: 42-title -->
-                    <h3 class="42-title bold-underline">42 :</h3>
+                    <!-- Title: fortytwo-title -->
+                    <h3 class="fortytwo-title bold-underline">42 School:</h3>
 
-                    <!-- ordered list : exp-list-42 -->
-                    <ol type="A" class="exp-list-42">
+                    <!-- ordered list : exp-list-fortytwo -->
+                    <ol type="A" class="exp-list-fortytwo">
                 
                         <!-- li: Shell -->
                         <li>
                             <!-- title: shell -->
-                            <h4 class="underline">Shell :</h4>
+                            <h4 class="underline">Shell:</h4>
 
-                            <!-- unordered list: 42-list-c -->
-                            <ul class="42-list-shell square">
+                            <!-- unordered list: fortytwo-list-c -->
+                            <ul class="fortytwo-list-shell italic">
                                 <li> 
-                                    <span class="underline">Bash - zsh:</span> 60%
+                                    <span class="bold-underline">Bash - zsh:</span> 60%
                                 </li>
     
                                 <li>
-                                    <span class="underline">Alias .bashrc - .zshrc:</span> 40%
+                                    <span class="bold-underline">Alias fichier ('.bashrc', '.zshrc'):</span> 40%
                                 </li>
 
                                 <li>
-                                    <span class="underline">Script bash</span> 20%
+                                    <span class="bold-underline">Script bash:</span> 20%
                                 </li>
                             </ul>
-                            <!-- unordered list: end 42-list-c -->
+                            <!-- unordered list: end fortytwo-list-c -->
                         </li>
                         <!-- li: end Shell -->
 
                         <!-- li: C-->
                         <li>
 
-                            <!-- Title: 42-list-c -->
-                            <h4 class="underline">Langage C :</h4>
+                            <!-- Title: fortytwo-list-c -->
+                            <h4 class="underline">Langage C:</h4>
             
-                            <!-- unordered list: 42-list-c -->
-                            <ul class="42-list-c square">
+                            <!-- unordered list: fortytwo-list-c -->
+                            <ul class="fortytwo-list-c square">
 
                                 <li> 
-                                    <span class="underline">Variable (typage de variable, déclaration de variable) :</span> 100%
+                                    <span class="bold-underline">Variable (typage de variable, déclaration de variable):</span> 100%
                                 </li>
 
                                 <li>
-                                    <span class="underline">Boucle (while, do while et for) :</span> 80%
+                                    <span class="bold-underline">Boucle (while, do while et for) :</span> 80%
                                 </li>
 
                                 <li>
-                                    <span class="underline">Fonction (fonction itérative, fonction récursive) :</span> 50%
+                                    <span class="bold-underline">Fonction (fonction itérative, fonction récursive):</span> 50%
                                 </li>
                                 
                                 <li>
-                                    <span class="underline">Tableau (tableau multidimensionnel) :</span> 40%
+                                    <span class="bold-underline">Tableau (tableau multidimensionnel):</span> 40%
                                 </li>
 
                                 <li>
-                                    <span class="underline">Pointeur (mémoire allouée, stack) :</span> 25%
+                                    <span class="bold-underline">Pointeur (mémoire allouée, stack):</span> 25%
                                 </li>
                             </ul>
-                            <!-- unordered list: end 42-list-c -->
+                            <!-- unordered list: end fortytwo-list-c -->
 
                         </li>
                         <!-- li: end C -->
 
                     </ol>
-                    <!-- ordered list: end  exp-list-42 -->
+                    <!-- ordered list: end  exp-list-fortytwo -->
 
                 </li>
-                <!-- li: end 42-li -->
+                <!-- li: end -li -->
 
             </ol>
             <!-- ordered list: end .exp-list -->
@@ -157,17 +160,27 @@
 
         <!-- div: #div-skill -->
         <div id="div-skill">
-            <h2 class="skill-title">Mes Soft skills :</h2>
+
+            <!-- Title: skill-list -->
+            <h2 class="skill-title underline"><img src="assets/icon.png" alt="icon pokeball sections" class="pokeball"> Mes Soft skills:</h2>
+        
+            <!-- Unordered list: .skill-list -->
+            <ul class="skill-list square">
+                <li><span class="bold-underline">Motivation:</span> 100%</li>
+                <li><span class="bold-underline">Créativité:</span> 60%</li>
+                <li><span class="bold-underline">Empathie:</span> 50%</li>
+                <li><span class="bold-underline">Gestion du stress:</span> 40%</li>
+            </ul>
         </div>
         
         <!-- div: #div-school -->
         <div id="div-school">
 
             <!-- Title: .school-title -->
-            <h2 class="school-title">Mes formations :</h2>
+            <h2 class="school-title underline"><img src="assets/icon.png" alt="icon pokeball sections" class="pokeball"> Mes formations:</h2>
     
             <!-- Unordered list: .school-list -->
-            <ul class="school-list">
+            <ul class="school-list square">
                 
                     <li>
                         <span class="bold-underline">De Septembre 2019 à Décembre 2019:</span>
@@ -187,12 +200,6 @@
 
     </section>
 
-    <!-- Liseré -->
-    <div class="div-lise"></div>
-
-    <footer>
-
-    </footer>
 </body>
 
 </html>
