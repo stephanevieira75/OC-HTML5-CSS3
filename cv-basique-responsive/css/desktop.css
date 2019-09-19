@@ -14,7 +14,10 @@
     src: url("../fonts/Pokemon\ Text.ttf");
 }
 
-/* body */
+/****************************/
+/***********Body*************/
+/****************************/
+
 body{
     background: url('../assets/background.png') 100%;
     font-family: "Pokemon Text";
@@ -70,8 +73,6 @@ body{
 
 /* Class: picture */
 .picture{
-    width: 10%;
-    height: 20%;
     position: absolute;
     top: 8%;
     right: 3%;
