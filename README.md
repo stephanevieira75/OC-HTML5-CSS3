@@ -4,23 +4,23 @@ Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms:
 
 # Exercice OC :
 
-## A - Les bases du html :
+## A - HTML5 :
 
-### 1 - cv-basique-html
-    100%
+### 1 - Structurez votre CV
+    100% - cv-basique-html
 
-## B - Les bases du css :
+## B - CSS3 :
 
-### 1 - cv-basique-css
-    100% 
-### 2 - cv-basique-css2
-    100%
+### 1 - Mettez en forme votre CV
+    100% - cv-basique-css
+### 2 - Organiser son CV
+    100% - cv-basique-css2
 
 # Projet Perso :
 
 ## A - my-first-page:
 
 ### 1 - Login page
-    40%
+    40% - my-first-page/index.html
 ### 2 - Register page
-    30%   
+    30% - my-first-page/register.html 
