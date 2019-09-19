@@ -1,0 +1,272 @@
+/* body */
+body{
+
+    /* marge à 0 */
+    margin: 0 auto;
+
+    /* On ajoute la police à tous les éléments de la page  */
+    font-family: 'Oswald', Arial, sans-serif;
+
+    /* Changement couleur du texte */
+    color: #273240;
+    /* On ajuste la largeur de la page à 100% de l'écran */
+    width: 100%;
+
+    /* On ajuste la hauteur de la page à 100% de l'écran */
+    height: 100%;
+
+    /* On ajoute le fond de la page avec un repeat */
+    background: url("../img/background.png") 100% repeat;
+
+}
+
+/* Haut de page : header */
+header{
+    /* alignement du titre et de la bio*/
+    text-align: center;
+}
+
+/* Liens */
+a{
+    /* Changement couleur de texte des liens */
+    color: blue;
+}
+
+/* class : italic */
+.italic{
+    
+    /* changement de style de texte en italique */
+    font-style: italic;
+}
+
+/* class : bold */
+.bold{
+
+    /* Changement couleur du texte */
+    color: #0B0F26;
+    
+    /* changement du texte en gras */
+    font-weight: bold;
+}
+
+/* class : underline */
+.underline{
+
+    /* Changement couleur du texte */
+    color: #0B0F26;
+
+    /* Souligement du texte */
+    text-decoration-line: underline;
+}
+
+/* class : underline-bold */
+.bold-underline{
+
+    /* Changement couleur du texte */
+    color: #0B0F26;
+
+     /* changement de style de texte en italique */
+    font-weight: bold;
+
+     /* Souligement du texte */
+    text-decoration-line: underline;
+}
+
+/* class : square*/
+.square{
+
+    /* modification des puces rondes en carré */
+    list-style-type: square;
+}
+
+/* balise image img : .photo */
+.photo{
+
+    /* Bordure autour de la photo*/
+    border: 5px solid #a000e0;
+
+    /* Ombre autour de la photo */
+    box-shadow: 6px 6px 0px #0B0F26;
+
+    /* On arrondi la bordure de la photo */
+    border-radius: 10px;
+
+    /* hauteur : 18% de la taille de l'écran */
+    height: 18%;
+
+    /* largeur : 9% de la taille de l'écran */
+    width: 9%;
+
+    /* Positionnement de l'image via les propriétés top - right*/
+    position: absolute;
+
+    /* Positionnement de l'image en haut à 2% de l'écran */
+    top: 2%;
+
+    /* Positionnement de l'image à droite à 2% de l'écran */
+    right: 2%;
+}
+
+/* Paragraphe p : .about */
+.about{
+
+    /* changement de la taille du texte */
+    font-size: 1.4em;
+
+    /* marge en bas 6% de l'écran */
+    margin-bottom: 6%;
+
+    /* marge à gauche 5% de l'écran */
+    margin-left: 6%;
+
+}
+
+/* Conteneur div : #bio */
+#section-bio{
+
+    /* on ajuste la largeur de la section bio à 90%*/
+    width: 100%;
+
+    /* alignement centre du titre : name-title et du paragraphe : about */
+    text-align: center;
+}
+
+/* Conteneur div : #section-exp */
+#section-exp{
+
+    /* alignement a gauche du titre : exp-title et de la liste : exp-list */
+    text-align: left;
+}
+
+/* Titre h1 : .name-title */
+.name-title{
+
+    /* modification de la taille de la police */
+    font-size: 4em;
+
+    /* changement couleur du titre h1 */
+    color: #0B0F26;
+
+    /* marge a gauche à 5% de l'écran */
+    margin-left: 6%;
+
+    /* marge en bas 2% de l'écran */
+    margin-bottom: 2%;
+
+}
+
+/* Conteneur des éléments #section-exp #section-skills #section-formation */
+.container{
+
+    /* On met le conteneur à 60% de la taille de l'écran */
+    width: 60%;
+
+    /* flex */
+    display: flex;
+
+    /* On aligne les éléments au milieu du conteneur */
+    flex-wrap: nowrap;
+    
+    /* On recentre les éléments */
+    justify-content: center;
+
+    /* marge à gauche à 20% de l'écran */
+    margin-left: 20%;
+}
+
+/* Appliquer sur tous les conteneurs */
+#section-exp, #section-skills, #section-formation{
+
+    /* largeur : 30% de la taille de l'écran */
+    width: 30%;
+
+    /* changement du fond de chaques sections */
+    background-color: #a000e0;
+
+    /* ajout d'une bordure entre chaques sections */
+    border: 3px solid #0B0F26;
+
+    margin-right: 3%;
+}
+
+/* Titre h2 : .exp-title, .skills-title, .formation-title */
+.exp-title, .skills-title, .formation-title{
+    
+    /* modification des titres en bloc inline */
+    display: flex;
+
+    /* on aligne les titres au centre  */
+    justify-content: center;
+    
+    /* on applique une largeur à 100% pour chaques conteneurs*/
+    width: 100%;
+
+    /* on applique une haute de 10% pour chaques conteneurs */
+    height: 10%;
+
+    /* modification de la taille de la police */
+    font-size: 2.3em;
+
+    /* changement couleur des titres h2 */
+    color:#0B0F26;
+
+    /* ajout d'une bordure entre chaques sections */
+    border: 3px solid #0B0F26;
+
+    /* on applique la bordure uniquement en bas */
+    border-style: none none solid none;
+
+    /* marge en bas 5% de l'écran */
+    margin: 0 0 5% 0;    
+
+    /* on aligne les titres au centre  */
+    text-align: justify;
+    
+    /* on ajoute un overflow automatique pour évite de dépasser le cadre des sections */
+    overflow: auto;
+}
+
+/* Listes : .exp-list, .skills-list, .formation-list */
+.exp-list, .skills-list, .formation-list{
+    
+    /* modification de la taille de la police */
+    font-size: 1.3em;
+
+    /* alignement des listes à gauche */
+    text-align: left;
+
+    /* marge intérieur en bas à 2% de l'écran */
+    padding-bottom: 2%;
+    
+    /* on ajoute un overflow automatique pour évite de dépasser le cadre des sections */
+    overflow: auto;
+}
+
+/* lignes des listes */
+li{
+    /* on applique 1% de marge en haut et 2% en bas de l'écran*/
+    margin: 1% 0 2% 0;
+}
+
+.banner{
+    /* on met la bannière de gauche en positon fixé */
+    position: fixed;
+
+    /* début de la bannière en haut à 0 */
+    top: 0;
+
+    /* début de la bannière à gauche à 0 */
+    left: 0;
+
+    /* on ajuste la largeur de la bannière à 10% de la taille de l'écran */
+    width: 10%;
+
+    /* on ajuste la hauteur de la bannière à 100% de la taille de l'écran */
+    height: 100%;
+
+    /* on ajoute le fond de la bannière */
+    background-image: url('../img/background.png');
+    
+    /* on ajoute une bordure de 6pixels sur la bannière */
+    border: 6px solid #0B0F26;
+}
