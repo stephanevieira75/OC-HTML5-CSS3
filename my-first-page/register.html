@@ -25,29 +25,29 @@
             <p>
                 <!-- User mail -->
 
-                <label class="birthday" for="date">*Username :</label>
-                <input required title="*Choose your Username or use Email" class="ipt" type="email" name="mail" placeholder="Username or Email">
+                <label class="birthday" for="usrname">*Username :</label>
+                <input required id="usrname" title="*Choose your Username or use Email" class="ipt" type="email" name="mail" placeholder="Username or Email">
                 
                 <!-- User phone number -->
-                <label class="birthday" for="date">Phone :</label>
-                <input title="Optional" class="ipt" type="tel" name="tel" placeholder="+33 07 08 09 10 11">
+                <label class="birthday" for="phone">Phone :</label>
+                <input id="phone" title="Optional" class="ipt" type="tel" name="tel" placeholder="+33 07 08 09 10 11">
 
                 <!-- User birthday -->
-                <label class="birthday" for="date">*Birthday :</label>
-                <input required class="ipt" name="date" placeholder="birthday" type="date"/>
+                <label class="birthday" for="date-birthday">*Birthday :</label>
+                <input required class="ipt" id="date-birthday" name="date" placeholder="birthday" type="date"/>
                 
                 <!-- User password -->
-                <label class="birthday" for="date">*Password :</label>
-                <input required title="You can use : 0-9/a-z/A-Z" class="ipt" type="password" name="pw" placeholder="Password">
+                <label class="birthday" for="pw">*Password :</label>
+                <input required title="You can use : 0-9/a-z/A-Z" id="pw"class="ipt" type="password" name="password" placeholder="Password">
 
                 <!-- confirm password -->
-                <label class="birthday" for="date">*Confirm :</label>
-                <input required title="Confirm your password" class="ipt" type="password" name="pw-confirm" placeholder="Confirm Password">
+                <label class="birthday" for="pw-confirm">*Confirm :</label>
+                <input required id="pw-confirm" title="Confirm your password" class="ipt" type="password" name="password-confirm" placeholder="Confirm Password">
 
 
                 <!-- Checkbox remember-me -->
                 <label for="remember">I agree to terms</label>
-                <input title="Please read the chart before" class="check"type="checkbox" name="remember">
+                <input id="remember" title="Please read the chart before" class="check"type="checkbox" name="remember-me">
             </p>
             <!-- Submit button-->
             <input title="Redirection to user panel"class="btn ipt"type="submit" value="Subscribe">
