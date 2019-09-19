@@ -1,22 +1,21 @@
 # OC-HTML5-CSS3
 
+# Description:
 Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms: 
 
-# Exercice OC :
+# Exercice OC:
 
-## 1 - HTML5 :
+## 1 - HTML5 - CSS3:
 
 ### a - Structurez votre CV
     100% - cv-basique-html
-
-## 2 - CSS3 :
-
-### a - Mettez en forme votre CV
+### b - Mettez en forme votre CV
     100% - cv-basique-css
-### b - Organiser son CV
+### c - Organiser son CV
     100% - cv-basique-css2
 
-## 3 - Responsive design :
+## 2 - Responsive design:
+
 ### a - Adaptez votre CV en responsive
     20% - cv-basique-responsive
 
