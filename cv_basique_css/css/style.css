@@ -1,0 +1,203 @@
+@font-face { /* Définition d'une nouvelle police nommée Oswald */
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-VariableFont:wght.ttf') format('truetype');
+}
+
+/* Body */
+body{
+
+    /* marge à 0 */
+    margin: 0 auto;
+
+    /* On ajoute la police à tous les éléments de la page  */
+    font-family: 'Oswald', Arial, sans-serif;
+
+    /* Changement couleur du texte */
+    color: #273240;
+    /* On ajuste la largeur de la page à 100% de l'écran */
+    width: 100%;
+
+    /* On ajuste la hauteur de la page à 100% de l'écran */
+    height: 100%;
+
+    /* On ajoute le fond de la page avec un repeat */
+    background: url("../img/background.png") 100%;
+
+    /* Bordure autour de la photo*/
+    border: 5px solid #0B0F26;
+}
+
+/* Liens */
+a{
+    /* Changement couleur de texte des liens */
+    color: blue;
+}
+
+/* class : italic */
+.italic{
+    
+    /* changement de style de texte en italique */
+    font-style: italic;
+}
+
+/* class : bold */
+.bold{
+
+    /* Changement couleur du texte */
+    color: #0B0F26;
+    
+    /* changement du texte en gras */
+    font-weight: bold;
+}
+
+/* class : underline */
+.underline{
+
+    /* Changement couleur du texte */
+    color: #0B0F26;
+
+    /* Souligement du texte */
+    text-decoration-line: underline;
+}
+
+/* class : underline-bold */
+.bold-underline{
+
+    /* Changement couleur du texte */
+    color: #0B0F26;
+
+     /* changement de style de texte en italique */
+    font-weight: bold;
+
+     /* Souligement du texte */
+    text-decoration-line: underline;
+}
+
+/* class : square*/
+.square{
+
+    /* modification des puces rondes en carré */
+    list-style-type: square;
+}
+
+/* balise image img : .photo */
+.photo{
+
+    /* Bordure autour de la photo*/
+    border: 5px solid #a000e0;
+
+    /* Ombre autour de la photo */
+    box-shadow: 6px 6px 0px #0B0F26;
+
+    /* On arrondi la bordure de la photo */
+    border-radius: 10px;
+
+    /* hauteur : 10% de la taille de l'écran */
+    height: 10%;
+
+    /* largeur : 10% de la taille de l'écran */
+    width: 10%;
+
+    /* Positionnement de l'image à droite de l'écran */
+    float: right;
+
+    /* marge à droite 2% de l'écran */
+    margin-right: 2%;
+
+}
+
+/* Paragraphe p : .about */
+.about{
+
+    /* changement de la taille du texte */
+    font-size: 1.4em;
+
+    /* marge en bas 6% de l'écran */
+    margin-bottom: 6%;
+
+    /* marge à gauche 5% de l'écran */
+    margin-left: 6%;
+
+
+}
+
+/* Conteneur div : #bio */
+#bio{
+
+    /* alignement centre du titre : name-title et du paragraphe : about */
+    text-align: center;
+}
+
+/* Conteneur div : #exp */
+#exp{
+
+    /* alignement a gauche du titre : exp-title et de la liste : exp-list */
+    text-align: left;
+}
+
+/* Titre h1 : .name-title */
+.name-title{
+
+    /* modification de la taille de la police */
+    font-size: 4em;
+
+    /* changement couleur du titre h1 */
+    color: #0B0F26;
+
+    /* marge a gauche à 5% de l'écran */
+    margin-left: 6%;
+
+    /* marge en bas 2% de l'écran */
+    margin-bottom: 2%;
+
+}
+
+/* Appliquer sur tous les conteneurs */
+#exp, #skills, #formation{
+
+    /* largeur : 80% de la taille de l'écran */
+    width: 80%;
+
+    /* marge à gauche 10% de l'écran */
+    margin-left: 10%;
+
+    /* marge à bas 5% de l'écran */
+    margin-bottom: 5%;
+
+    /* changement du fond de chaques sections */
+    background-color: #a000e0;
+
+    /* ajout d'une bordure entre chaques sections */
+    border: 3px solid #0B0F26;
+}
+
+/* Titre h2 : .exp-title, .skills-title, .formation-title */
+.exp-title, .skills-title, .formation-title{
+
+    /* modification de la taille de la police */
+    font-size: 2.3em;
+
+    /* changement couleur des titres h2 */
+    color:#0B0F26;
+
+    /* marge à gauche 3% de l'écran */
+    margin-left: 3%;
+
+    /* marge en bas 2% de l'écran */
+    margin-bottom: 2%;
+
+}
+
+/* Listes : .exp-list, .skills-list, .formation-list */
+.exp-list, .skills-list, .formation-list{
+
+    /* modification de la taille de la police */
+    font-size: 1.3em;
+
+    /* marge en bas 2% de l'écran */
+    margin-bottom: 2%;
+
+    /* marge a gauche 15% de l'écran */
+    margin-left: 15%;
+
+}
