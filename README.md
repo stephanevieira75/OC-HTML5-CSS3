@@ -4,7 +4,7 @@ OC-HTML5-CSS3
 ## Description:
     Voici mon cursus d'apprentissage du HTML et de CSS sur OpenClassrooms. 
 
-Exercice OC:
+EXERCICE OC:
 ============
 
 ## 1 - HTML5 - CSS3:
@@ -21,7 +21,7 @@ Exercice OC:
 ### a - Adaptez votre CV en responsive
     20% - cv-basique-responsive
 
-Projet Perso :
+PROJET PERSO :
 ==============
 
 ## 1 - my-first-page:
