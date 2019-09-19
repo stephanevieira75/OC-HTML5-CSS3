@@ -1,7 +1,7 @@
 # OC-HTML5-CSS3
 
 # Description:
-Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms: 
+    Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms: 
 
 # Exercice OC:
 
