@@ -19,7 +19,7 @@ EXERCICE OC:
 ## 2 - RESPONSIVE DESIGN:
 
 ### a - Adaptez votre CV en responsive
-    80% - cv-basique-responsive
+    100% - cv-basique-responsive
 
 PROJET PERSO :
 ==============
