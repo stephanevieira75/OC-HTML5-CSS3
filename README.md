@@ -16,6 +16,10 @@ Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms:
 ### b - Organiser son CV
     100% - cv-basique-css2
 
+## 3 - Responsive design :
+### a - Adaptez votre CV en responsive
+    20% - cv-basique-responsive
+
 # Projet Perso :
 
 ## 1 - my-first-page:
