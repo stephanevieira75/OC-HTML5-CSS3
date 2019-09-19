@@ -7,7 +7,7 @@ OC-HTML5-CSS3
 Exercice OC:
 ============
 
-## 1 - Html - Css:
+## 1 - HTML5 - CSS3:
 
 ### a - Structurez votre CV
     100% - cv-basique-html
@@ -16,7 +16,7 @@ Exercice OC:
 ### c - Organiser son CV
     100% - cv-basique-css2
 
-## 2 - Responsive design:
+## 2 - RESPONSIVE DESIGN:
 
 ### a - Adaptez votre CV en responsive
     20% - cv-basique-responsive
