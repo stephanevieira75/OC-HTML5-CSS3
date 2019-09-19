@@ -2,12 +2,21 @@
 
 Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms: 
 
-# Les bases du html :
+# Exercice OC :
 
-1 - cv-basique-html
+## A - Les bases du html :
 
-# Les bases du css :
+### 1 - cv-basique-html
+    100%
 
-1 - cv-basique-css
+## B - Les bases du css :
 
-2 - cv-basique-css2
+### 1 - cv-basique-css
+    100% 
+### 2 - cv-basique-css2
+    100%
+
+# Projet Perso :
+
+## A - Login/Register page
+    40%    
