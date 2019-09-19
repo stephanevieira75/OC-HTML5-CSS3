@@ -19,7 +19,8 @@ Voici mon cursus d'apprentissage de HTML/CSS sur OpenClassrooms:
 # Projet Perso :
 
 ## A - my-first-page:
-    ### 1 - Login page
+
+### 1 - Login page
     40%
-    ### 2 - Register page
+### 2 - Register page
     30%   
